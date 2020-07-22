@@ -25,6 +25,9 @@ function App() {
             </Link>
           </nav>
         </div>
+     <Route exact path="/">
+          <AddNewTravelItem />
+        </Route>
         <Route exact path="/add">
           <AddNewTravelItem />
         </Route>
