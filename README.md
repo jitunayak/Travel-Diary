@@ -1,3 +1,8 @@
+![alttext]('https://github.com/jitunayak/Travel-Diary/tree/master/src/screencaptures/addtrip.png')
+![alttext]('https://github.com/jitunayak/Travel-Diary/tree/master/src/screencaptures/dashboard.png')
+![alttext]('https://github.com/jitunayak/Travel-Diary/tree/master/src/screencaptures/homelist.png')
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
