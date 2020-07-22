@@ -1,13 +1,191 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#root {
+  --primary-color: rgb(116, 157, 206);
+  --secondary-color: rgb(212, 233, 255);
+  --blue: rgb(17, 105, 199);
+}
+
+.main-div {
+  display: flex;
+  padding: 100px;
+  background-color: rgb(192, 217, 238);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: left;
+}
+
+.center-div {
+  border-radius: 18;
+  width: 600px;
+  min-width: 300px;
+  background-color: white;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 20px 20px 10px #8f8f8f, -30px -30px 100px #ffffff;
+}
+
+h1 {
+  background-color: var(--blue);
+  color: white;
+  padding: 5px 10px 5px 20px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgb(149, 154, 160), -10px -10px 60px #ffffff;
+}
+
+.input-txt {
+  border: none;
+  outline: none;
+  /* border-bottom: 3px solid rgb(206, 175, 206); */
+  background-color: white;
+  font-size: 18pt;
+  padding: 10px;
+  width: auto;
+  min-width: 500px;
+  border-radius: 8px;
+}
+
+.btn-add {
+  width: 55px;
+  height: 55px;
+  border-radius: 200%;
+  padding: 0px;
+  margin: 10px;
+  background-color: var(--blue);
+  border: none;
+  font-size: 28pt;
+  color: white;
+  outline: none;
+  box-shadow: 5px 5px 5px rgb(179, 179, 179), -10px -10px 10px #ffffff;
+}
+
+.btn-add:hover {
+  background-color: rgb(72, 172, 72);
+  box-shadow: 40px 40px 16px 0 rgba(195, 212, 250, 0.3) inset,
+    -8px -8px 12px 0 rgb(47, 75, 97) inset;
+}
+
+.list-item {
+  min-width: 300px;
+  max-width: 400px;
+  font-size: 16pt;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 15px 10px 10px #bababa, -10px -10px 30px #cbcbcb;
+}
+
+/* .list-item:hover {
+  background-color: rgb(215, 215, 215);
+} */
+
+.title {
+  color: rgb(67, 78, 114);
+  font-size: 16pt;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.description {
+  font-size: 13pt;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn-dlt {
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+  font-size: 12pt;
+  color: rgb(213, 101, 101);
+}
+
+.btn-dlt:hover {
+  color: rgb(235, 2, 2);
+}
+
+.grid-div {
+  display: grid;
+  grid: auto/ auto auto auto;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+Link {
+  color: white;
+  margin: 10px;
+}
+.nav {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--blue);
+  padding: 20px 30px 20px 10px;
+  box-shadow: 10px 10px 10px rgb(149, 154, 160), -10px -10px 60px #ffffff;
+}
+
+.btn-nav {
+  padding: 5px 10px 5px 10px;
+  font-size: 18pt;
+  font-weight: normal;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.box-div {
+  display: flex;
+  background-color: rgb(180, 211, 245);
+  padding: 30px;
+  width: 180px;
+  height: 180px;
+  color: var(--blue);
+  font-size: 20pt;
+  font-weight: 600;
+  border-radius: 10px;
+  margin: 30px;
+  flex-direction: column;
+  box-shadow: 10px 10px 50px rgb(216, 218, 220),
+    10px 10px 10px rgb(126, 126, 126);
+}
+
+.optionBox {
+  padding: 10px;
+  font-size: 14pt;
+  outline: none;
+  border: none;
+  color: rgb(159, 159, 159);
+  border-bottom: 1px solid black;
+}
+
+.checkBox {
+  padding: 10px;
+  font-size: 14pt;
+  color: rgb(159, 159, 159);
 }
